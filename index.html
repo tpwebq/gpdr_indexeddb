@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no"/>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+        <title>GPDR IndexedDB | Home</title>
+    </head>
+    <body>
+        <div class="container-fluid min-vh-100 d-flex align-items-center bg-light">
+            <div class="row mx-0 w-100">
+                <div class="col-12 col-md-6 col-lg-5 mx-auto text-center text-secondary">
+                    <div class="card p-3 pb-1">
+                        <div class="card-body">
+                            <h1 class="display-5">
+                                GPDR IndexedDB
+                            </h1>
+                            <p class="lead mb-4">
+                                Click button "test" to start.
+                            </p>
+                            <div class="w-100 text-center mb-4">
+                                <button class="btn btn-outline-secondary rounded-pill"
+                                    onclick="resetExample()">
+                                    Reset
+                                </button>
+                                <button class="btn btn-outline-secondary rounded-pill"
+                                    onclick="checkGPDR()">
+                                    &gt;&gt; Test &lt;&lt;
+                                </button>
+                            </div>                            
+                        </div>
+                        <div class="border-top small text-center">
+                            <p class="small mb-0">
+                                *If you don't see GPDR declaration after pressing "test" button, 
+                                click "reset" button to clear settings.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js_gpdr/gpdr__bootstrap.js"></script>
+        <script src="js_gpdr/test_support.js"></script>
+    </body>
+</html>
